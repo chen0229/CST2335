@@ -14,7 +14,8 @@
         android:layout_height="wrap_content"
         android:layout_columnWeight="1"
         android:layout_gravity="fill"
-        android:text="@string/radioButton_text" />
+        android:text="@string/radioButton_text"
+        android:textSize="24sp"/>
 
     <CheckBox
         android:id="@+id/checkBox"
@@ -22,7 +23,8 @@
         android:layout_height="wrap_content"
         android:layout_columnWeight="1"
         android:layout_gravity="fill"
-        android:text="@string/checkBox_text" />
+        android:text="@string/checkBox_text"
+        android:textSize="24sp"/>
 
     <Switch
         android:id="@+id/Switch"
@@ -30,7 +32,8 @@
         android:layout_height="wrap_content"
         android:layout_columnWeight="1"
         android:layout_gravity="fill"
-        android:text="@string/switch_message" />
+        android:text="@string/switch_message"
+        android:textSize="24sp"/>
 
     <ImageButton
         android:id="@+id/imageButton"
