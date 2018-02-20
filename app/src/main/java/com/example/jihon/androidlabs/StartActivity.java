@@ -28,6 +28,18 @@ public class StartActivity extends Activity {
                 startActivityForResult(intent, 50);
             }
         });
+
+        Button chatButton = (Button)findViewById(R.id.startChart_button);
+
+        chatButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Log.i(ACTIVITY_NAME, "User clicked Start Chat");
+                Intent intent = new Intent(StartActivity.this, ChatWindow.class);
+
+                startActivity(intent);
+            }
+        });
     }
     @Override
     public void onActivityResult(int requestCode, int responseCode, Intent data){
