@@ -5,9 +5,22 @@
     <string name="Login_message">Login</string>
     <string name="login_name">login name</string>
     <string name="password_message">password</string>
+    <string name="login_button">Login</string>
     <string name="radioButton_text">RadioButton</string>
     <string name="checkBox_text">CheckBox</string>
     <string name="switch_message">What does this do?</string>
+    <string name="switch_on">Switch is On</string>
+    <string name="switch_off">Switch is Off</string>
+    <string name="dialog_message">Do you want to finish the activity?</string>
+    <string name="dialog_title">TITLE</string>
+    <string name="ok">Yes</string>
+    <string name="response_message">ListItemsActivity passed: My information to share</string>
+    <string name="cancel">No</string>
+
+
+
+
+
 
 
 </resources>
