@@ -23,7 +23,7 @@ public class LoginActivity extends Activity {
 
         final EditText loginEmail = (EditText)findViewById(R.id.loginEmail);
         final SharedPreferences sharedPref =
-                getPreferences(Context.MODE_PRIVATE);
+                getSharedPreferences("info", Context.MODE_PRIVATE);
         String emailName = sharedPref.getString("DefaultEmail", "email@domain.com");
         loginEmail.setText(emailName);
 
