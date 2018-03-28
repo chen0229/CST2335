@@ -18,6 +18,12 @@
     <string name="cancel">No</string>
     <string name="chart_button">Start Chat</string>
     <string name="send_button">Send</string>
+    <string name="weather_check">Weather Forecast</string>
+    <string name="fragment_message">Message Here</string>
+    <string name="delete_message">DELETE THIS MESSAGE</string>
+    <string name="title_activity_test_tool_bar">TestToolBar</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_test_toolbar">TestToolbar</string>
 
 
 </resources>

@@ -114,8 +114,6 @@ public class ListItemsActivity extends Activity {
     }
 
 
-
-
     @Override
     protected void onResume(){
         super.onResume();
