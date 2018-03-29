@@ -156,12 +156,19 @@ public class ChatWindow extends Activity {
         if(resultCode == RESULT_OK && requestCode == this.requestCode){
             Long id = data.getLongExtra("id", -1);
             db.delete("CHAT", ChatDatabaseHelper.KEY_ID + "=" + id, null);
+            list.clear();
+            cursor = db.rawQuery("select * from " + TABLE_NAME, null);
+            cursor.moveToFirst();
+            while(!cursor.isAfterLast()){
+                Log.i(ACTIVITY_NAME, "SQL MESSAGE:" + cursor.getString(
+                        cursor.getColumnIndex(ChatDatabaseHelper.KEY_MESSAGE)));
 
-           // list.remove(id);
+                list.add(cursor.getString(cursor.getColumnIndex(ChatDatabaseHelper.KEY_MESSAGE)));
+                cursor.moveToNext();
+            }
+
+
             messageAdapter.notifyDataSetChanged();
-           // finish();
-           // Intent intent = getIntent();
-         //   startActivity(intent);
         }
     }
 

@@ -28,7 +28,7 @@
         <activity android:name=".MessageDetails" />
         <activity
             android:name=".TestToolbar"
-            android:label="@string/title_activity_test_toolbar"></activity>
+            android:label="@string/title_activity_test_toolbar" />
     </application>
 
 </manifest>
