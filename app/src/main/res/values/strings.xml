@@ -22,10 +22,9 @@
     <string name="fragment_message">Message Here</string>
     <string name="delete_message">DELETE THIS MESSAGE</string>
     <string name="title_activity_test_tool_bar">TestToolBar</string>
-    <string name="title_activity_main">MainActivity</string>
-    <string name="title_activity_test_toolbar">TestToolbar</string>
-    <string name="title_activity_main00">MainActivity00</string>
-    <string name="title_activity_main12">MainActivity12</string>
+    <string name="alertAction2_toolbar">Do you want to go back?</string>
+    <string name="newMessage">New Message</string>
+    <string name="alertAction3_toolbar">Do you want to replace the new message to Snackbar</string>
 
 
 </resources>

@@ -24,7 +24,7 @@ public class MessageDetails extends Activity {
         }
 
             FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
-        //fragmentTransaction.replace(R.id.phoneFrameLayout, messageFragment).addToBackStack(null).commit();
+
         fragmentTransaction.addToBackStack(null).replace(R.id.phoneFrameLayout, messageFragment);
         fragmentTransaction.commit();
     }

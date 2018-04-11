@@ -167,7 +167,6 @@ public class ChatWindow extends Activity {
                 cursor.moveToNext();
             }
 
-
             messageAdapter.notifyDataSetChanged();
         }
     }

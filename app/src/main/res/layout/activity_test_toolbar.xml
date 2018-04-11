@@ -7,4 +7,22 @@
     android:layout_height="match_parent"
     tools:context="com.example.jihon.androidlabs.TestToolbar">
 
+    <android.support.v7.widget.Toolbar
+        android:layout_alignParentTop="true"
+        android:id="@+id/test_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </android.support.v7.widget.Toolbar>
+
+    <include layout="@layout/content_test_toolbar"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/fab"
+        android:src="@android:drawable/ic_dialog_email"
+
+        android:layout_gravity="bottom|end"/>
+
 </android.support.design.widget.CoordinatorLayout>
